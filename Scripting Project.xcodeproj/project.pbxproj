@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		BA53C103275AA59C00F94CDF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA53C102275AA59C00F94CDF /* main.cpp */; };
+		BA53C113275AA89500F94CDF /* roster.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA53C111275AA89500F94CDF /* roster.cpp */; };
+		BA53C116275AA8BA00F94CDF /* student.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA53C114275AA8BA00F94CDF /* student.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,11 @@
 /* Begin PBXFileReference section */
 		BA53C0FF275AA59C00F94CDF /* Scripting Project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Scripting Project"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA53C102275AA59C00F94CDF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		BA53C109275AA6AA00F94CDF /* degree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = degree.h; sourceTree = "<group>"; };
+		BA53C111275AA89500F94CDF /* roster.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = roster.cpp; sourceTree = "<group>"; };
+		BA53C112275AA89500F94CDF /* roster.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = roster.h; sourceTree = "<group>"; };
+		BA53C114275AA8BA00F94CDF /* student.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = student.cpp; sourceTree = "<group>"; };
+		BA53C115275AA8BA00F94CDF /* student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = student.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,11 @@
 			isa = PBXGroup;
 			children = (
 				BA53C102275AA59C00F94CDF /* main.cpp */,
+				BA53C109275AA6AA00F94CDF /* degree.h */,
+				BA53C111275AA89500F94CDF /* roster.cpp */,
+				BA53C112275AA89500F94CDF /* roster.h */,
+				BA53C114275AA8BA00F94CDF /* student.cpp */,
+				BA53C115275AA8BA00F94CDF /* student.h */,
 			);
 			path = "Scripting Project";
 			sourceTree = "<group>";
@@ -119,6 +131,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA53C113275AA89500F94CDF /* roster.cpp in Sources */,
+				BA53C116275AA8BA00F94CDF /* student.cpp in Sources */,
 				BA53C103275AA59C00F94CDF /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
